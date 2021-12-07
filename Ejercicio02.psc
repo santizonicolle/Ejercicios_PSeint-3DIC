@@ -1,10 +1,11 @@
 Algoritmo Ejercicio02
-	Mostrar "Ingrese un valor:"
-	Leer n
+	n<-4
+	suma<-0
 	
 	Para i<-1 Hasta n Hacer
 		value <- (2*i)-1
 		suma <- suma + value
-		Mostrar "El resultado es:", suma
 	FinPara
+	
+	Mostrar "El resultado es:", suma
 FinAlgoritmo
